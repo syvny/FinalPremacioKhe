@@ -41,14 +41,13 @@ class dictGame(dict):
         self[key] = value
 
 
-#ARI PAG ADD SA GAME NGA CLASS KHE
-"""
-NOT YET COMPLETE NGA GAME CLASS
 class Game:
     def __init__(self,name,price,genre,developer,link):
         self.name = name
-""" 
-
+        self.price = price
+        self.genre = genre
+        self.developer = developer
+        self.link = link
 
 mydb = mysql.connector.connect(
     host = "localhost",
